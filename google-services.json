@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "252916414670",
+    "project_id": "eduhublk-77d84",
+    "storage_bucket": "eduhublk-77d84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252916414670:android:910a9e445283557309b89f",
+        "android_client_info": {
+          "package_name": "com.example.madd_eduhublk_it19011844"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252916414670-skp6174or81lq1v4tauj4dc5589nkih6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5I-gUQRb3RmnSa5DbQnKkdksEpf35Rc8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252916414670-skp6174or81lq1v4tauj4dc5589nkih6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
