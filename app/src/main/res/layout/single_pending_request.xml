@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/single_pending_request_name_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/single_pending_request_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toEndOf="@id/single_pending_request_name_view"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/single_pending_request_text_view_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/single_pending_request_name_view">
+        <TextView
+            android:id="@+id/single_pending_request_as"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/student"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/single_pending_request_roll_number"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/b16cs006"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/single_pending_request_buttons_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/single_pending_request_text_view_linear_layout">
+
+        <Button
+            android:id="@+id/single_pending_request_accept_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/holo_green_dark"
+            android:text="@string/accept"
+            android:textColor="#212121" />
+
+        <Button
+            android:id="@+id/single_pending_request_reject_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/holo_red_dark"
+            android:text="@string/reject"
+            android:textColor="#EFEBE9" />
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

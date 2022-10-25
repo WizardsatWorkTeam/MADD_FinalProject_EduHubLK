@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="assignment_upload_radio" type="id">assignment_upload_radio</item>
+    <item name="my_command_whole_view" type="id">my_command_whole_view</item>
+    <item name="my_command_view" type="id">my_command_view</item>
+    <item name="my_message_view" type="id">my_message_view</item>
+    <item name="my_time_view" type="id">my_time_view</item>
+    <item name="my_first_message_whole_view" type="id">my_first_message_whole_view</item>
+    <item name="my_first_message_view" type="id">my_first_message_view</item>
+    <item name="my_first_time_view" type="id">my_first_time_view</item>
+    <item name="other_message_whole_view" type="id">other_message_whole_view</item>
+    <item name="other_message_view" type="id">other_message_view</item>
+    <item name="other_time_view" type="id">other_time_view</item>
+    <item name="other_first_name_view" type="id">other_first_name_view</item>
+    <item name="other_first_message_view" type="id">other_first_message_view</item>
+    <item name="other_first_time_view" type="id">other_first_time_view</item>
+</resources>
